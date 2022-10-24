@@ -57,7 +57,7 @@ body {
     height: 50vh;
     width: 100%;
     position: absolute;
-    top: -8vh;
+    top: -32vh;
     left: 0;
 }
 .wave2{
@@ -66,7 +66,7 @@ body {
     height: 50vh;
     width: 100%;
     position: absolute;
-    bottom: -8vh;
+    bottom: -32vh;
     left: 0;
 }
 
