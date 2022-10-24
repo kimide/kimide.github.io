@@ -1,0 +1,76 @@
+
+h4 {
+    font-size: 3.8rem;
+    align-self: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+body {
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    background: #202731;
+    overflow: hidden;
+}
+
+
+.page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.subpage{
+    display: flex;
+    border: solid red 1px;
+    height: 100%;
+    padding: 5rem;
+    gap: 2rem;
+    overflow-y: scroll;
+}
+
+.box{
+    height: min-content;
+    flex: 1;
+    color: black;
+    border-radius: 5rem;
+    background: rgb(207,206,224);
+    background: linear-gradient(45deg, rgba(207,206,224,1) 0%, rgba(255,255,255,1) 100%);
+    padding: 3rem;
+    box-shadow: black 0 0 4rem -2rem;
+    
+
+}
+
+
+.wave1{
+    filter: drop-shadow(red 0 0 .5rem) hue-rotate(280deg);
+    object-fit:fill;
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    top: -8vh;
+    left: 0;
+}
+.wave2{
+    filter: drop-shadow(red 0 0 .5rem) hue-rotate(180deg);
+    object-fit:fill;
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    bottom: -8vh;
+    left: 0;
+}
+
+
+.flip {
+    transform: rotate(180deg);
+}
